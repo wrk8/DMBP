@@ -10,4 +10,10 @@ Our proposed Diffusion Model-Based Predictor (DMBP) is a new framework that reco
 
 Follow is the visualization of the DMBP denoising effect on Mujoco Hopper-v2 with Gaussian noise (std of 0.1)
 
- <img src="/Hopper.gif" width = "700" height = "700" alt="DMBP_Visualization" align=left />
+ <img src="/Hopper.gif" width = "700" height = "700" alt="DMBP_Visualization" align=center />  
+
+
+## Requirement
+Our experiment is performed on D4RL benchmark environments and datasets ([click here](https://sites.google.com/view/d4rl-anonymous/)).
+Please install the Mujoco Version 2.1 
+([click here](https://github.com/deepmind/mujoco/releases)) before getting start. See `requirements.txt` for detailed environment set up.
