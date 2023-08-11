@@ -16,4 +16,17 @@ Follow is the visualization of the DMBP denoising effect on Mujoco Hopper-v2 wit
 ## Requirement
 Our experiment is performed on D4RL benchmark environments and datasets ([click here](https://sites.google.com/view/d4rl-anonymous/)).
 Please install the Mujoco Version 2.1 
-([click here](https://github.com/deepmind/mujoco/releases)) before getting start. See `requirements.txt` for detailed environment set up.
+([click here](https://github.com/deepmind/mujoco/releases)) before getting start. See `requirements.txt` for detailed environment set up.  
+
+## Training
+### Baseline Algorithms Training
+
+### DMBP Training
+
+## Evaluation
+### Robustness against noised state observations
+
+### Robustness against incomplete state observations with unobserved dimensions
+
+
+## Visualization
