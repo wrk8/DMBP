@@ -10,7 +10,7 @@ Our proposed Diffusion Model-Based Predictor (DMBP) is a new framework that reco
 
 Follow is the visualization of the DMBP denoising effect on Mujoco Hopper-v2 with Gaussian noise (std of 0.1)
 
- <img src="/Hopper.gif" width = "700" height = "700" alt="DMBP_Visualization" align=center />  
+ <img src="/Hopper_medium_replay.gif" width = "700" height = "700" alt="DMBP_Visualization" align=center />  
 
 
 ## Requirement
