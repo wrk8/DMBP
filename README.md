@@ -20,13 +20,15 @@ Please install the Mujoco Version 2.1
 
 ## Training
 ### Baseline Algorithms Training
-
+Before training DMBP, train a baseline offline RL algorithm at first:
+```bash
+python -m scripts.train_baseline --algo [ALGORITHM_NAME] --env_name [ENV_NAME] --dataset [DATASET_NAME]
+```
 ### DMBP Training
 DMBP utilizes the trajectory datasets for training. Download the datasets of the corresponding domain through
 ```bash
 python -m scripts.download_datasets --domain [DOMAIN_NAME]
 ```
-where you can choose [DOMAIN_NAME] from "mujoco", "adroit" or "kitchen".
 
 ## Evaluation
 ### Robustness against noised state observations
