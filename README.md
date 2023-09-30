@@ -29,7 +29,11 @@ DMBP utilizes the trajectory datasets for training. Download the datasets of the
 ```bash
 python -m scripts.download_datasets --domain [DOMAIN_NAME]
 ```
-
+Then DMBP can be trained through:
+```bash
+python -m scripts.train_DMBP --task [TASK_NAME] --algo [ALGORITHM_NAME] --env_name [ENV_NAME] --dataset [DATASET_NAME]
+```
+where the previously trained baseline algorithms are only used for evaluation.
 ## Evaluation
 ### Robustness against noised state observations
 
