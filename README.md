@@ -33,7 +33,8 @@ Then DMBP can be trained through:
 ```bash
 python -m scripts.train_DMBP --task [TASK_NAME] --algo [ALGORITHM_NAME] --env_name [ENV_NAME] --dataset [DATASET_NAME]
 ```
-where the previously trained baseline algorithms are only used for evaluation.
+where the previously trained baseline algorithms are only used for training-process evaluation.
+
 ## Evaluation
 ### Robustness against noised state observations
 
