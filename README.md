@@ -48,10 +48,10 @@ python -m evaluations.eval_DMBP_noise --noise_type [ATTACK_METHOD] --algo [ALGOR
 ### Robustness against incomplete state observations with unobserved dimensions
 Similarly, to evaluate the baseline algorithm against incomplete state observations, run:
 ```bash
-python -m evaluations.eval_baseline_noise --mask_dim [MASKED_DIM] --algo [ALGORITHM_NAME] --env_name [ENV_NAME] --dataset [DATASET_NAME]
+python -m evaluations.eval_baseline_mask --mask_dim [MASKED_DIM] --algo [ALGORITHM_NAME] --env_name [ENV_NAME] --dataset [DATASET_NAME]
 ```
 Then, the evaluation on DMBP strenghted baseline algorithm can be conducted through:
 ```bash
-python -m evaluations.eval_DMBP_noise --mask_dim [MASKED_DIM] --algo [ALGORITHM_NAME] --env_name [ENV_NAME] --dataset [DATASET_NAME]
+python -m evaluations.eval_DMBP_mask --mask_dim [MASKED_DIM] --algo [ALGORITHM_NAME] --env_name [ENV_NAME] --dataset [DATASET_NAME]
 ```
 ## Visualization
