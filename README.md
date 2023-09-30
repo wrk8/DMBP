@@ -37,7 +37,14 @@ where the previously trained baseline algorithms are only used for training-proc
 
 ## Evaluation
 ### Robustness against noised state observations
-
+To evaluate the baseline algorithm against different attacks on state observations, run:
+```bash
+python -m evaluations.eval_baseline_noise --noise_type [ATTACK_METHOD] --algo [ALGORITHM_NAME] --env_name [ENV_NAME] --dataset [DATASET_NAME]
+```
+Then, the evaluation on the corresponding baseline algorithm strengthed by DMBP can be conducted through:
+```bash
+python -m evaluations.eval_DMBP_noise --noise_type [ATTACK_METHOD] --algo [ALGORITHM_NAME] --env_name [ENV_NAME] --dataset [DATASET_NAME]
+```
 ### Robustness against incomplete state observations with unobserved dimensions
 
 
