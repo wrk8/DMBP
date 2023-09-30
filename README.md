@@ -22,6 +22,11 @@ Please install the Mujoco Version 2.1
 ### Baseline Algorithms Training
 
 ### DMBP Training
+DMBP utilizes the trajectory datasets for training. Download the datasets of the corresponding domain through
+```bash
+python -m scripts.download_datasets --domain [DOMAIN_NAME]
+```
+where you can choose [DOMAIN_NAME] from "mujoco", "adroit" or "kitchen".
 
 ## Evaluation
 ### Robustness against noised state observations
