@@ -6,6 +6,10 @@ This is the implementation of Decision Model-Based Predictor (DMBP) and the repr
 
 A major challenge for the real-world application of offline RL stems from the robustness against state observation perturbations, *e.g.*, as a result of sensor errors or adversarial attacks. Unlike online robust RL, agents cannot be adversarially trained in the offline setting.
 
+<div style="text-align: center;">
+<img src="fig1.png" width = "600" height= "230" align=center >
+</div>
+
 Our proposed Diffusion Model-Based Predictor (DMBP) is a new framework that recovers the actual states with conditional diffusion models for state-based RL tasks. Our derived non-Markovian training objective reduces the **error accumulations**, which are commonly observed for model-based methods in state-based RL tasks.
 
 Follow is the visualization of the DMBP denoising effect on Mujoco Hopper-v2 with Gaussian noise (std of 0.1)
