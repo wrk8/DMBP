@@ -106,7 +106,7 @@ def eval_baseline_noise(args):
     data = args.dataset
     seed = args.seed
     checkpoint_idx = np.arange(0, 11, 1)   # Checkpoints total num of 11
-    eval_episode = 10   # For each checkpoint
+    eval_episode = args.eval_episodes      # For each checkpoint
 
     if noise_info == "all":
         Noise_scale = np.linspace(0.00, 0.15, 16)  # (Start, End, Total_num)
@@ -333,6 +333,8 @@ if __name__ == "__main__":
                              "or ('complete', 'mixed', 'partial') for franka kitchen domain.")
     parser.add_argument('--seed', default=0, type=int)
     parser.add_argument('--device', default="cuda:0", type=str)
+    parser.add_argument('--eval_episodes', default=10, type=int,
+                        help="Evaluation episodes for each checkpoint")
     parser.add_argument('--not_eval_in_env', action='store_false',
                         help="'True' for evaluate in the environment")
     parser.add_argument('--not_saving_results', action='store_false',
