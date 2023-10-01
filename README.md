@@ -12,7 +12,7 @@ A major challenge for the real-world application of offline RL stems from the ro
 
 Our proposed Diffusion Model-Based Predictor (DMBP) is a new framework that recovers the actual states with conditional diffusion models for state-based RL tasks. Our derived non-Markovian training objective reduces the **error accumulations**, which are commonly observed for model-based methods in state-based RL tasks.
 
-Follow is the visualization of the DMBP denoising effect on Mujoco Hopper-v2 with Gaussian noise (std of 0.1)
+Follow we present the visualization of the denoising effect of DMBP with Diffusion QL (trained on hopper-medium-replay-v2). The observation is perturbed with Gaussian distributed random noise with std of 0.10.
 
  <img src="present/Hopper_medium_replay.gif" width = "700" height = "700" alt="DMBP_Visualization" align=center />  
 
