@@ -2,10 +2,13 @@
 
 This is the implementation of Decision Model-Based Predictor (DMBP) and the reproduced baseline algorithms (including [BCQ](https://arxiv.org/abs/1812.02900), [CQL](https://proceedings.neurips.cc/paper/2020/hash/0d2b2061826a5df3221116a5085a6052-Abstract.html), [TD3+BC](https://proceedings.neurips.cc/paper/2021/hash/a8166da05c5a094f7dc03724b41886e5-Abstract.html), [RORL](https://arxiv.org/abs/2206.02829), and [Diffusion QL](https://arxiv.org/abs/2208.06193)).
 
+Note that this code implementation is only used for double-blind review purpose. Click [here](https://github.com/zhyang2226/DMBP) for official implementation.
+
 ## GOOD NEWS！
 Our paper has been accepted by ICLR2024 for poster presentation! Click [here](https://openreview.net/forum?id=ZULjcYLWKe) if you would like to refer to the reviews on our paper.
+<!---
 A de-anonymized official implementation of DMBP will be presented at [here](https://github.com/zhyang2226/DMBP) and this website will be closed when the new one is well-established. We will add the visualization module in the final version. Please star our new web, create issues there if you need.
-
+-->
 If you find DMBP helpful for your work, please cite:
 ```
 @inproceedings{
